@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  flex-direction: column;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.container-img-background {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/home.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: blur(1px);
+  position: absolute;
+  z-index: -1;
+}
+
+.links {
+  height: 70px;
+  width: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 30%);
+  position: fixed;
+}
+
+.links span {
+  cursor: pointer;
+}
+
+.links h2 {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.container-perfil {
+  flex-direction: column;
+}
+
+.img-perfil-home {
+  height: 150px;
+  margin: 40px 0 10px;
+  border-radius: 200px;
+  box-shadow: 1px 1px 4px black, -1px -1px 4px white;
+}
+
+.page-title {
+  margin: 10px;
+  color: #cd3c30;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  text-shadow: 1px 1px 4px black, -1px -1px 4px white;
+}
+
+.container-footer {
+  bottom: 50px;
+  left: 50px;
+  position: absolute;
+}
+
+.container-footer h3 {
+  font-size: 16px;
+}
+
+.about-me {
+  height: 100vh;
+  width: 100%;
+  background-color: #1e2233;
+  padding: 80px 0;
+}
+
+.container-img-perfil {
+  border: #1e2233 4px solid;
+  border-radius: 12px;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+}
+
+.img-perfil {
+  border: black 1px solid;
+  border-radius: 8px;
+  height: 350px;
+}
+
+.datas {
+  margin: 10px;
+  width: 450px;
+}
+
+.description {
+  margin: 5px;
+}
+
+.description h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.description h3 {
+  font-weight: 400;
+  flex-wrap: wrap;
+}
+
+.personal-data {
+  border: #cd3c30 1px solid;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 8px;
+}
+
+.personal-data b {
+  font-weight: 700;
+}
+
+.personal-data h3 {
+  /* border: white 1px solid; */
+  font-weight: 400;
+  justify-content: left;
+  margin: 8px;
+  padding: 0 5px;
+  width: 195px;
+}
+
+.my-skylls {
+  height: 100vh;
+  width: 100%;
+  background-color: darkblue;
+}
+
+.experience-education {
+  height: 100vh;
+  width: 100%;
+  background-color: blue;
+}
+
+.portfolio {
+  height: 100vh;
+  width: 100%;
+  background-color: lightblue;
+}
